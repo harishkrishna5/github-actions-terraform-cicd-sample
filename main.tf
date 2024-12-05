@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "s306022024"
+    bucket         = "hari-demo-terraform98765"
     key            = "terraform.tfstate"
     region         = "ap-south-1"
   }

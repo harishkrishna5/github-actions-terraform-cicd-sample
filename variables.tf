@@ -9,11 +9,6 @@ variable "instance_type" {
 }
 
 
-variable "s3_bucket_name" {
-  description = "Name of the S3 bucket for remote state"
-  default = "hari-demo-terraform98765"
-}
-
 variable "name" {
   description = "Name of EC2 Intance"
 }
